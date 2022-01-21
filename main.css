@@ -1,0 +1,79 @@
+body {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+.container {
+  background-color: rgb(241, 69, 181);
+  background-image: linear-gradient(
+      to right,
+      rgba(175, 15, 208, 1),
+      rgba(175, 15, 208, 0.5)
+    ),
+    url(file:///Users/tanktan/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/%E0%B9%81%E0%B8%95%E0%B8%99/tank-tan-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom left;
+  min-height: 100vh;
+  padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}
+.content {
+  margin-bottom: 40px;
+}
+
+.tank-jobs {
+  margin-bottom: 40px;
+  border-radius: 100%;
+  object-fit: cover;
+  box-shadow: 5px 5px 20px 1px rgb(132, 4, 158);
+}
+
+.contact {
+  margin-bottom: 40px;
+  color: rgb(195, 252, 8);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-item {
+  margin-bottom: 5px;
+}
+
+.contact-icon {
+  margin-right: 15px;
+  width: 16px;
+}
+
+.button {
+  background-color: rgb(195, 252, 8);
+  color: rgb(241, 69, 181);
+  font-weight: bolder;
+  padding: 12px 24px;
+  box-shadow: 0px 0px 8px 0px rgb(132, 4, 158);
+  margin-bottom: 60px;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: rgb(195, 252, 8);
+}
+
+.job {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(195, 252, 8);
+}
+
+.about {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(195, 252, 8);
+  margin-bottom: 100px;
+}
